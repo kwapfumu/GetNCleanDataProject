@@ -2,7 +2,7 @@
 Project submitted for the Getting and Cleaning Data course
 =============================================================
 0. Make sure you download the run_analysis.R script and save it inside the "UCI HAR Dataset" directory/folder (the folder that contains all the raw datasets)
-1. In RStudio, Set your working directory to "UCI HAR Dataset" 
+1. In RStudio, Set your working directory to "UCI HAR Dataset"
 2. Install "dplyr" and "reshape2" packages
 3. In the console type source("run_analysis.R") and then run_analysis()
 
@@ -37,7 +37,7 @@ Project submitted for the Getting and Cleaning Data course
 
 ###Extracting columns with mean and standard deviation in it
 21. extracts columns with "mean()", "mean()-X/Y/Z and meanFreq()-X/Y/Z from "processedDataSet" and storing them into "proDatasetwithmean" data.frame of 10299 observations of 46 variables
-22. installs and loads "dplyr"
+22. loads "dplyr"
 23. extracts columns with mean() and mean()-X/Y/Z only from "proDatasetwithmean" and stores them into "proDatasetwithmeanOnly" data.frame of 10299 observations of 33 variables
 24. extracts columns with std() and std()-X/Y/Z from "processedDataSet" and storing them into "proDatasetwithstd" data.frame of 10299 observations of 33 variables
 25. merges everything into one data.frame named "messyDataSet" data.frame of 10299 observations of 68 variables
@@ -47,7 +47,7 @@ Project submitted for the Getting and Cleaning Data course
 27. replaces all "messyDataSet$Activity" values into corresponding activity's names
 
 ###Restructuring and aggregating data set
-28. installs and loads "reshape" package
+28. loads "reshape" package
 29. restructures dataset in such way that each observation is in its own row and stores it into "tidyDataSet"
 30. aggregates the Dataset by subjectId and Activity, computes the mean for each numeric value and stores them into "averagedTidyDataSet"
 
