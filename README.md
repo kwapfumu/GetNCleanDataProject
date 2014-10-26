@@ -1,7 +1,7 @@
 =============================================================
 Project submitted for the Getting and Cleaning Data course
 =============================================================
-0. Make sure you download the run_analysis.R script and save inside the "UCI HAR Dataset" directory/folder
+0. Make sure you download the run_analysis.R script and save it inside the "UCI HAR Dataset" directory/folder
 1. In RStudio, Set your working directory to "UCI HAR Dataset" directory(the folder that contains all the raw datasets)
 2. Install "dplyr" and "reshape2" packages
 3. In the console type source("run_analysis.R") and then run_analysis()
