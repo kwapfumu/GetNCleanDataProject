@@ -1,7 +1,6 @@
-==================================================================================================
-Project submitted for the Getting and Cleaning Data course in Coursera Data Science specialization
-Oct 2014
-==================================================================================================
+=============================================================
+Project submitted for the Getting and Cleaning Data course
+=============================================================
 1. In RStudio, Set your working directory to "UCI HAR Dataset" directory(the folder that contains all the raw datasets)
 2. Install "dplyr" and "reshape2" packages
 3. In the console type source("run_analysis.R") and then run_analysis()
